@@ -450,7 +450,7 @@ public class DefaultDecorationModelInheritanceAssembler
          */
         public String rebaseLink( final String link )
         {
-            if ( link == null || getOldPath() == null )
+            if ( link == null || getOldPath() == null || link.contains( "${" ) )
             {
                 return link;
             }
