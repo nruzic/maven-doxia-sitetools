@@ -498,7 +498,6 @@ under the License.
                             <completionGoals>clean verify</completionGoals>
                             <!-- perform settings -->
                             <useReleaseProfile>false</useReleaseProfile>
-                            <releaseProfiles>releaseTasks</releaseProfiles>
                         </configuration>
                     </plugin>
                     <plugin>
