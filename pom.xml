@@ -31,7 +31,7 @@ under the License.
 
   <groupId>com.github.nruzic.org.apache.maven.doxia</groupId>
   <artifactId>doxia-sitetools</artifactId>
-  <version>1.8.1-interpolation-hotfix-RC4-SNAPSHOT</version>
+  <version>1.8.1-interpolation-hotfix-RC4</version>
   <packaging>pom</packaging>
 
   <name>Doxia Sitetools</name>
@@ -51,7 +51,7 @@ under the License.
     <connection>scm:git:https://github.com/nruzic/maven-doxia-sitetools.git</connection>
     <developerConnection>scm:git:git@github.com:nruzic/maven-doxia-sitetools.git</developerConnection>
     <url>https://github.com/nruzic/maven-doxia-sitetools/tree/${project.scm.tag}</url>
-    <tag>bugfix/site-descriptor-interpolation-problem</tag>
+    <tag>doxia-sitetools-1.8.1-interpolation-hotfix-RC4</tag>
   </scm>
   <issueManagement>
     <system>jira</system>
