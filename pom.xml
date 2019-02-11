@@ -491,9 +491,11 @@ under the License.
                                 by perform step which is triggered by releaseProfiles tag -->
                             <arguments>-DreleaseTasks -Dbranch=${project-branch} -Dsettings.security=${settings-security}</arguments>
                             <!-- prepare settings -->
-                            <preparationGoals>clean verify site</preparationGoals>
+                            <preparationGoals>clean verify</preparationGoals>
+                            <!-- release settings -->
+                            <goals>deploy</goals>
                             <!-- completion settings -->
-                            <completionGoals>clean verify site</completionGoals>
+                            <completionGoals>clean verify</completionGoals>
                             <!-- perform settings -->
                             <useReleaseProfile>false</useReleaseProfile>
                             <releaseProfiles>releaseTasks</releaseProfiles>
