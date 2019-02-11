@@ -21,12 +21,18 @@ under the License.
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
+<!--
   <parent>
     <groupId>org.apache.maven</groupId>
     <artifactId>maven-parent</artifactId>
     <version>30</version>
     <relativePath>../../pom/maven/pom.xml</relativePath>
+  </parent>
+-->
+  <parent>
+  <groupId>com.github.nruzic.commons.master</groupId>
+  <artifactId>nruzic-commons-master</artifactId>
+  <version>3.0.0-RC14</version>
   </parent>
 
   <groupId>com.github.nruzic.org.apache.maven.doxia</groupId>
@@ -281,7 +287,7 @@ under the License.
             <configuration>
               <rules>
                 <enforceBytecodeVersion>
-                  <maxJdkVersion>${maven.compiler.target}</maxJdkVersion>
+                  <maxJdkVersion>1.8</maxJdkVersion>
                 </enforceBytecodeVersion>
               </rules>
               <fail>true</fail>
